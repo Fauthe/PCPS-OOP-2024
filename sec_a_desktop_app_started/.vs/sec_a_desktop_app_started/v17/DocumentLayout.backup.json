@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\displaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\displaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\displaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\displaydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\displaydata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\displaydata.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\controller\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\controller\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\controller\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\controller\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\controller\\connectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\controller\\connectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\iservice\\iconnectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\iservice\\iconnectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\view\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\view\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\controller\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\controller\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|c:\\manish_dba\\pcps\\repos\\pcps-oop-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A6DEA35-38D0-4EC3-9CBC-53EEFA91386A}|sec_a_desktop_app_started\\sec_a_desktop_app_started.csproj|solutionrelative:sec_a_desktop_app_started\\iservice\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\Register.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\Register.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\Register.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\View\\Register.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAawKMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:16:22.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\DBContext.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Controller\\DBContext.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\DBContext.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Controller\\DBContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:47:28.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Program.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Program.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Program.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:19:21.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SplashScreen.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawCQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:04:38.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DisplayData.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAhwH8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:16:41.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Model\\User.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Model\\User.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Model\\User.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:02:55.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisplayData.Designer.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.Designer.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\DisplayData.Designer.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.Designer.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\View\\DisplayData.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwGgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:45:15.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisplayData.cs [Design]",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\DisplayData.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\DisplayData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:56:44.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\Register.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\Register.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\Register.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T16:00:33.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\UserRepository.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Controller\\UserRepository.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\UserRepository.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Controller\\UserRepository.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAawHUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:11:58.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConnectionString.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\IService\\IConnectionString.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\IService\\IConnectionString.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\IService\\IConnectionString.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\IService\\IConnectionString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:24:52.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionString.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\ConnectionString.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Controller\\ConnectionString.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\ConnectionString.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Controller\\ConnectionString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:26:54.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SplashScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\View\\SplashScreen.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\SplashScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\View\\SplashScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T14:48:39.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\Controller\\BaseRepository.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\Controller\\BaseRepository.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\Controller\\BaseRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAASwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:23:04.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\IService\\IRepository.cs",
+              "RelativeDocumentMoniker": "sec_a_desktop_app_started\\IService\\IRepository.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\repos\\PCPS-OOP-2024\\sec_a_desktop_app_started\\sec_a_desktop_app_started\\IService\\IRepository.cs",
+              "RelativeToolTip": "sec_a_desktop_app_started\\IService\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:32:25.902Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
