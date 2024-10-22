@@ -15,9 +15,15 @@ namespace LiftDemo_A
 		bool isMovingUp = false;
 		bool isMovingDown = false;
 		int liftSpeed = 5;
+
+		bool isClosing = false;
+		bool isOpening = false;
+		int doorSpeed = 5;
+		int doorMaxOpenWidth;
 		public Form1()
 		{
 			InitializeComponent();
+			doorMaxOpenWidth = mainElevator.Width / 2 - 30;
 		}
 
 
@@ -73,5 +79,52 @@ namespace LiftDemo_A
 			}
 		}
 
+		private void btn_Open_Click(object sender, EventArgs e)
+		{
+			isOpening=true;
+			isClosing=false;
+			doorTimer.Start();
+			btn_Close.Enabled = false;
+		}
+
+		private void btn_Close_Click(object sender, EventArgs e)
+		{
+			isOpening =false;
+			isClosing=true;
+			doorTimer.Start();
+			
+		}
+
+		private void door_Timer_Tick(object sender, EventArgs e)
+
+		{
+			if(isOpening)
+			{
+				if(doorLeft_G.Left > doorMaxOpenWidth/2)
+				{
+					doorLeft_G.Left -= doorSpeed;
+					doorRight_G.Left += doorSpeed;
+				}
+				else
+				{
+					doorTimer.Stop();
+					btn_Close.Enabled=true;
+				}
+			}
+
+			if(isClosing)
+			{
+				if(doorLeft_G.Right < mainElevator.Width + doorMaxOpenWidth/2-5)
+				{
+					doorLeft_G.Left += doorSpeed;
+					doorRight_G.Left -= doorSpeed;
+				}
+				else
+				{
+					doorTimer.Stop();
+
+				}
+			}
+		}
 	}
 }

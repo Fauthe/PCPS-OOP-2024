@@ -98,5 +98,11 @@
   <ItemGroup>
     <None Include="Resources\closedoorsbutton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lift door left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lift door right.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|c:\\manish_dba\\pcps\\oop\\dotnet_projects\\desktop_apps\\wfa\\liftdemo_a\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|c:\\manish_dba\\pcps\\oop\\dotnet_projects\\desktop_apps\\wfa\\liftdemo_a\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|c:\\manish_dba\\pcps\\oop\\dotnet_projects\\desktop_apps\\wfa\\liftdemo_a\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
               "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
-              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
-              "RelativeToolTip": "LiftDemo_A\\Form1.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwEYAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs*",
+              "RelativeToolTip": "LiftDemo_A\\Form1.cs*",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwHQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T05:05:02.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
               "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
-              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs [Design]",
-              "RelativeToolTip": "LiftDemo_A\\Form1.cs [Design]",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs [Design]*",
+              "RelativeToolTip": "LiftDemo_A\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T04:31:09.172Z",
               "EditorCaption": " [Design]"
