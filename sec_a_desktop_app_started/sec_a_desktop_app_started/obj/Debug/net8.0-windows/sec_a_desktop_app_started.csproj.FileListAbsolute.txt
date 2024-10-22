@@ -140,3 +140,7 @@ C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_a
 C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.pdb
 C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.genruntimeconfig.cache
 C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\ref\sec_a_desktop_app_started.dll
+C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.sourcelink.json
+C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.View.Form1.resources
+C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.View.Form2.resources
+C:\Manish_DBA\PCPS\repos\PCPS-OOP-2024\sec_a_desktop_app_started\sec_a_desktop_app_started\obj\Debug\net8.0-windows\sec_a_desktop_app_started.View.Form3.resources

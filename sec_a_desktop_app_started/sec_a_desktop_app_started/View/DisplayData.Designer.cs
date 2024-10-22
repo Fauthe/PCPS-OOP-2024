@@ -94,6 +94,7 @@
 			menuStrip1.Size = new Size(800, 49);
 			menuStrip1.TabIndex = 4;
 			menuStrip1.Text = "menuStrip1";
+			menuStrip1.ItemClicked += menuStrip1_ItemClicked;
 			// 
 			// registerPageToolStripMenuItem
 			// 
@@ -102,7 +103,7 @@
 			registerPageToolStripMenuItem.Name = "registerPageToolStripMenuItem";
 			registerPageToolStripMenuItem.Size = new Size(281, 45);
 			registerPageToolStripMenuItem.Text = "Registration Page";
-			registerPageToolStripMenuItem.Click += this.registerPageToolStripMenuItem_Click;
+			registerPageToolStripMenuItem.Click += registerPageToolStripMenuItem_Click;
 			// 
 			// btnEdit
 			// 

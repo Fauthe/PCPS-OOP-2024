@@ -15,9 +15,9 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace sec_a_desktop_app_started
 {
-    public partial class Register : Form
+	public partial class Register : Form
 	{
-
+		BackgroundWorker worker;
 		static bool isUpdate = false;
 		DBContext dbContext;// = new DBContext();
 		UserRepository userRepository;
@@ -26,6 +26,10 @@ namespace sec_a_desktop_app_started
 		public Register()
 		{
 			InitializeComponent();
+			worker = new BackgroundWorker();
+			worker.WorkerSupportsCancellation = true;
+			worker.DoWork += BackgroundWorker1_DoWork;
+			worker.RunWorkerCompleted += BackgroundWorker1_RunWorkerCompleted;
 		}
 
 
@@ -57,6 +61,13 @@ namespace sec_a_desktop_app_started
 
 		private void Register_Load(object sender, EventArgs e)
 		{
+			//var res = worker.IsBusy;
+			//if (worker.IsBusy == null)
+			//{
+			//	worker.CancelAsync();
+
+			//}
+
 			List<string> lst = new List<string>() { "Select your country!!!", "Nepal", "India", "China" };
 			countries.DataSource = lst;
 
@@ -119,7 +130,7 @@ namespace sec_a_desktop_app_started
 				userRepository = new UserRepository(conn);
 				if (isUpdate is false)
 				{
-					
+
 					userRepository.Insert(newUser);
 					MessageBox.Show("Registered User: " + name, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 					clear();
@@ -156,17 +167,36 @@ namespace sec_a_desktop_app_started
 			countries.Text = "Select your country!!!";
 		}
 
-
-		private void resultsToolStripMenuItem_Click(object sender, EventArgs e)
+		private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
 		{
 			DisplayData d = new DisplayData();
-			d.Show();
-			this.Hide();
+			//this.Hide();
+			Thread.Sleep(10000);
+			d.ShowDialog();
+		}
+
+		private void BackgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+		{
+
+			// Set the worker to null to indicate completion
+			worker.CancelAsync();
+		}
+		private void resultsToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			//DisplayData d = new DisplayData();
+			//d.Show();
+			//this.Hide();
+			if (!worker.IsBusy)
+			{
+				worker.RunWorkerAsync();
+			}
 		}
 
 		private void exitToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
 		}
+
+		
 	}
 }

@@ -13,12 +13,13 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace sec_a_desktop_app_started
 {
-    public partial class DisplayData : Form
+	public partial class DisplayData : Form
 	{
 		DBContext dbContext;
 		UserRepository userRepository;
 		ConnectionString connectionString = new ConnectionString();
 		private User _selectedUser;
+
 		public DisplayData()
 		{
 			InitializeComponent();
@@ -26,7 +27,7 @@ namespace sec_a_desktop_app_started
 
 		private void DisplayData_Load(object sender, EventArgs e)
 		{
-
+			//dbContext = new DBContext();
 			dataGridView1.ReadOnly = true;
 
 			LoadData();
@@ -116,7 +117,7 @@ namespace sec_a_desktop_app_started
 
 					}
 				}
-				}
+			}
 			else
 			{
 				MessageBox.Show("Please select a row before attempting to delete.", "No Row Selected", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -172,15 +173,15 @@ namespace sec_a_desktop_app_started
 						MessageBoxButtons.OK,
 						MessageBoxIcon.Information); // Inform the user with "i" icon
 				}
-				}
 			}
-		
+		}
+
 
 		private void registerPageToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			Register r = new Register();
-			this.Hide();
 			r.Show();
+			this.Close();
 		}
 
 
@@ -206,6 +207,11 @@ namespace sec_a_desktop_app_started
 				// Handle exceptions
 				Console.WriteLine(ex.Message);
 			}
+		}
+
+		private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+		{
+
 		}
 	}
 }
