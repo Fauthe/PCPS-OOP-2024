@@ -29,7 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.liftTimer = new System.Windows.Forms.Timer(this.components);
+			this.liftTimerUp = new System.Windows.Forms.Timer(this.components);
 			this.doorRight_G = new System.Windows.Forms.PictureBox();
 			this.doorLeft_G = new System.Windows.Forms.PictureBox();
 			this.btn_Close = new System.Windows.Forms.Button();
@@ -42,6 +42,7 @@
 			this.doorLeft_1 = new System.Windows.Forms.PictureBox();
 			this.doorTimer = new System.Windows.Forms.Timer(this.components);
 			this.dataGridViewLogs = new System.Windows.Forms.DataGridView();
+			this.liftTimerDown = new System.Windows.Forms.Timer(this.components);
 			((System.ComponentModel.ISupportInitialize)(this.doorRight_G)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorLeft_G)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.liftPanel)).BeginInit();
@@ -51,10 +52,10 @@
 			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogs)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// liftTimer
+			// liftTimerUp
 			// 
-			this.liftTimer.Interval = 50;
-			this.liftTimer.Tick += new System.EventHandler(this.liftTimer_Tick);
+			this.liftTimerUp.Interval = 50;
+			this.liftTimerUp.Tick += new System.EventHandler(this.liftTimerUp_Tick);
 			// 
 			// doorRight_G
 			// 
@@ -178,6 +179,10 @@
 			this.dataGridViewLogs.Size = new System.Drawing.Size(301, 564);
 			this.dataGridViewLogs.TabIndex = 10;
 			// 
+			// liftTimerDown
+			// 
+			this.liftTimerDown.Tick += new System.EventHandler(this.liftTimerDown_Tick);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -216,13 +221,14 @@
 		private System.Windows.Forms.Button btn_G;
 		private System.Windows.Forms.Button btn_Open;
 		private System.Windows.Forms.Button btn_Close;
-		private System.Windows.Forms.Timer liftTimer;
+		private System.Windows.Forms.Timer liftTimerUp;
 		private System.Windows.Forms.PictureBox doorLeft_G;
 		private System.Windows.Forms.PictureBox doorRight_G;
 		private System.Windows.Forms.PictureBox doorRight_1;
 		private System.Windows.Forms.PictureBox doorLeft_1;
 		private System.Windows.Forms.Timer doorTimer;
 		private System.Windows.Forms.DataGridView dataGridViewLogs;
+		private System.Windows.Forms.Timer liftTimerDown;
 	}
 }
 

@@ -13,108 +13,76 @@ namespace LiftDemo_A
 {
 	public partial class Form1 : Form
 	{
-		bool isMovingUp = false;
-		bool isMovingDown = false;
-		int liftSpeed = 5;
-
 		bool isClosing = false;
 		bool isOpening = false;
-		int doorSpeed = 5;
+
 		int doorMaxOpenWidth;
+		int doorSpeed = 5;
+		int liftSpeed = 5;
 
-		
+		private Lift lift;
 		DataTable dt = new DataTable();
-
 		DBContext dbContext = new DBContext();
+
 		public Form1()
 		{
 			InitializeComponent();
+
+			lift = new Lift(mainElevator, btn_1, btn_G, this.ClientSize.Height, liftSpeed, liftTimerUp, liftTimerDown);
+
+
 			doorMaxOpenWidth = mainElevator.Width / 2 - 30;
 
 			dataGridViewLogs.ColumnCount = 2;
-
 			dataGridViewLogs.Columns[0].Name = "Time";
 			dataGridViewLogs.Columns[1].Name = "Events";
 
 			dt.Columns.Add("LogTime");
 			dt.Columns.Add("EventDescription");
+
 		}
-
-
 
 		private void logEvents(string message)
 		{
 			string currentTime = DateTime.Now.ToString("hh:mm:ss");
 
-			dt.Rows.Add(currentTime,message);
+			dt.Rows.Add(currentTime, message);
 			dataGridViewLogs.Rows.Add(currentTime, message);
 
 			dbContext.InsertLogsIntoDB(dt);
 		}
 
-		
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			dbContext.loadLogsFromDB(dt, dataGridViewLogs);
 		}
 
-		
-
-
-
-
 
 		public void btn_1_click(object sender, EventArgs e)
 		{
-			isMovingUp = true;
-			isMovingDown = false;
-			liftTimer.Start();
+			lift.SetState(new MovingUpState());
+			lift.LiftTimerUp.Start();
 			btn_G.Enabled = false;
 			logEvents("Lift Jadai xa!!!");
 		}
 
 		public void btn_G_click(object sender, EventArgs e)
 		{
-			isMovingUp=false;
-			isMovingDown=true;
-			liftTimer.Start();
-			btn_1.Enabled = false;
+			lift.SetState(new MovingDownState());
+
+			lift.LiftTimerDown.Start();
 			logEvents("Lift Khasdai xa!!!");
 		}
 
-		public void liftTimer_Tick(object sender, EventArgs e)
+		public void liftTimerUp_Tick(object sender, EventArgs e)
 		{
-			if(isMovingUp)
-			{
-				btn_G.BackColor = Color.Gray;
-				btn_1.BackColor = Color.LightGreen;
-				if(mainElevator.Top > 0)
-				{
-					mainElevator.Top -= liftSpeed;
-				}
-				else
-				{
-					mainElevator.Top = 0;
-					liftTimer.Stop();
-					btn_G.Enabled=true;
-				}
-			}
+			lift.MovingUp();
+		}
 
-			if(isMovingDown)
-			{
-				btn_1.BackColor = Color.Gray;
-				btn_G.BackColor = Color.LightGreen;
-				if(mainElevator.Bottom < this.ClientSize.Height)
-				{
-					mainElevator.Top += liftSpeed;
-				}
-				else
-				{
-					liftTimer.Stop();
-					btn_1.Enabled=true;
-				}
-			}
+		public void liftTimerDown_Tick(object sender, EventArgs e)
+		{
+			lift.MovingDown();
 		}
 
 		private void btn_Open_Click(object sender, EventArgs e)

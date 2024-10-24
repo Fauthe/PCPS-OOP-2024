@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|c:\\manish_dba\\pcps\\oop\\dotnet_projects\\desktop_apps\\wfa\\liftdemo_a\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\iliftstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\iliftstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|c:\\manish_dba\\pcps\\oop\\dotnet_projects\\desktop_apps\\wfa\\liftdemo_a\\liftdemo_a\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\movingupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\movingupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\movingdownstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\movingdownstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|solutionrelative:liftdemo_a\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{369B0FAC-1FE1-4B6D-AB79-A3C26F0C825E}|LiftDemo_A\\LiftDemo_A.csproj|C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\liftdemo_a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,23 +46,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "IdleState.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\IdleState.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\IdleState.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\IdleState.cs",
+              "RelativeToolTip": "LiftDemo_A\\IdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:01:47.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovingDownState.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\MovingDownState.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\MovingDownState.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\MovingDownState.cs",
+              "RelativeToolTip": "LiftDemo_A\\MovingDownState.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:00:33.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovingUpState.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\MovingUpState.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\MovingUpState.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\MovingUpState.cs",
+              "RelativeToolTip": "LiftDemo_A\\MovingUpState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:00:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lift.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Lift.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\Lift.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Lift.cs",
+              "RelativeToolTip": "LiftDemo_A\\Lift.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:59:27.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ILiftState.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\ILiftState.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\ILiftState.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\ILiftState.cs*",
+              "RelativeToolTip": "LiftDemo_A\\ILiftState.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T04:57:47.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\DBContext.cs",
               "RelativeDocumentMoniker": "LiftDemo_A\\DBContext.cs",
               "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\DBContext.cs",
               "RelativeToolTip": "LiftDemo_A\\DBContext.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAxwCoAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:47:24.534Z"
+              "WhenOpened": "2024-10-23T05:47:24.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
+              "RelativeToolTip": "LiftDemo_A\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:05:02.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
+              "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
+              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs [Design]",
+              "RelativeToolTip": "LiftDemo_A\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T04:31:09.172Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Program.cs",
               "RelativeDocumentMoniker": "LiftDemo_A\\Program.cs",
@@ -51,30 +162,6 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwBQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T03:00:46.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
-              "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
-              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
-              "RelativeToolTip": "LiftDemo_A\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T05:05:02.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs",
-              "RelativeDocumentMoniker": "LiftDemo_A\\Form1.cs",
-              "ToolTip": "C:\\Manish_DBA\\PCPS\\OOP\\DotNet_Projects\\Desktop_Apps\\WFA\\LiftDemo_A\\LiftDemo_A\\Form1.cs [Design]",
-              "RelativeToolTip": "LiftDemo_A\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T04:31:09.172Z"
             }
           ]
         }
