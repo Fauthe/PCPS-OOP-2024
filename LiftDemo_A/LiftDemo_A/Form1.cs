@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,45 @@ namespace LiftDemo_A
 		bool isOpening = false;
 		int doorSpeed = 5;
 		int doorMaxOpenWidth;
+
+		
+		DataTable dt = new DataTable();
+
+		DBContext dbContext = new DBContext();
 		public Form1()
 		{
 			InitializeComponent();
 			doorMaxOpenWidth = mainElevator.Width / 2 - 30;
+
+			dataGridViewLogs.ColumnCount = 2;
+
+			dataGridViewLogs.Columns[0].Name = "Time";
+			dataGridViewLogs.Columns[1].Name = "Events";
+
+			dt.Columns.Add("LogTime");
+			dt.Columns.Add("EventDescription");
 		}
+
+
+
+		private void logEvents(string message)
+		{
+			string currentTime = DateTime.Now.ToString("hh:mm:ss");
+
+			dt.Rows.Add(currentTime,message);
+			dataGridViewLogs.Rows.Add(currentTime, message);
+
+			dbContext.InsertLogsIntoDB(dt);
+		}
+
+		
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			dbContext.loadLogsFromDB(dt, dataGridViewLogs);
+		}
+
+		
 
 
 
@@ -36,6 +71,7 @@ namespace LiftDemo_A
 			isMovingDown = false;
 			liftTimer.Start();
 			btn_G.Enabled = false;
+			logEvents("Lift Jadai xa!!!");
 		}
 
 		public void btn_G_click(object sender, EventArgs e)
@@ -44,6 +80,7 @@ namespace LiftDemo_A
 			isMovingDown=true;
 			liftTimer.Start();
 			btn_1.Enabled = false;
+			logEvents("Lift Khasdai xa!!!");
 		}
 
 		public void liftTimer_Tick(object sender, EventArgs e)
@@ -58,6 +95,7 @@ namespace LiftDemo_A
 				}
 				else
 				{
+					mainElevator.Top = 0;
 					liftTimer.Stop();
 					btn_G.Enabled=true;
 				}
@@ -85,6 +123,8 @@ namespace LiftDemo_A
 			isClosing=false;
 			doorTimer.Start();
 			btn_Close.Enabled = false;
+
+			logEvents("Lift Khuldai xa!!!");
 		}
 
 		private void btn_Close_Click(object sender, EventArgs e)
@@ -92,37 +132,71 @@ namespace LiftDemo_A
 			isOpening =false;
 			isClosing=true;
 			doorTimer.Start();
-			
+			logEvents("Lift Banda hudai xa!!!");
 		}
 
 		private void door_Timer_Tick(object sender, EventArgs e)
 
 		{
-			if(isOpening)
+			if (mainElevator.Top != 0)
 			{
-				if(doorLeft_G.Left > doorMaxOpenWidth/2)
+				if (isOpening)
 				{
-					doorLeft_G.Left -= doorSpeed;
-					doorRight_G.Left += doorSpeed;
+					if (doorLeft_G.Left > doorMaxOpenWidth / 2)
+					{
+						doorLeft_G.Left -= doorSpeed;
+						doorRight_G.Left += doorSpeed;
+					}
+					else
+					{
+						doorTimer.Stop();
+						btn_Close.Enabled = true;
+					}
 				}
-				else
+
+				if (isClosing)
 				{
-					doorTimer.Stop();
-					btn_Close.Enabled=true;
+					if (doorLeft_G.Right < mainElevator.Width + doorMaxOpenWidth / 2 - 5)
+					{
+						doorLeft_G.Left += doorSpeed;
+						doorRight_G.Left -= doorSpeed;
+					}
+					else
+					{
+						doorTimer.Stop();
+
+					}
 				}
 			}
 
-			if(isClosing)
+			else
 			{
-				if(doorLeft_G.Right < mainElevator.Width + doorMaxOpenWidth/2-5)
+				if (isOpening)
 				{
-					doorLeft_G.Left += doorSpeed;
-					doorRight_G.Left -= doorSpeed;
+					if (doorLeft_1.Left > doorMaxOpenWidth / 2)
+					{
+						doorLeft_1.Left -= doorSpeed;
+						doorRight_1.Left += doorSpeed;
+					}
+					else
+					{
+						doorTimer.Stop();
+						btn_Close.Enabled = true;
+					}
 				}
-				else
-				{
-					doorTimer.Stop();
 
+				if (isClosing)
+				{
+					if (doorLeft_1.Right < mainElevator.Width + doorMaxOpenWidth / 2 - 5)
+					{
+						doorLeft_1.Left += doorSpeed;
+						doorRight_1.Left -= doorSpeed;
+					}
+					else
+					{
+						doorTimer.Stop();
+
+					}
 				}
 			}
 		}

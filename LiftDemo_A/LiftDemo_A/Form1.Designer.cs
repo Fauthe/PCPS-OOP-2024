@@ -41,12 +41,14 @@
 			this.doorRight_1 = new System.Windows.Forms.PictureBox();
 			this.doorLeft_1 = new System.Windows.Forms.PictureBox();
 			this.doorTimer = new System.Windows.Forms.Timer(this.components);
+			this.dataGridViewLogs = new System.Windows.Forms.DataGridView();
 			((System.ComponentModel.ISupportInitialize)(this.doorRight_G)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorLeft_G)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.liftPanel)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.mainElevator)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorRight_1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorLeft_1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogs)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// liftTimer
@@ -162,11 +164,26 @@
 			// 
 			this.doorTimer.Tick += new System.EventHandler(this.door_Timer_Tick);
 			// 
+			// dataGridViewLogs
+			// 
+			this.dataGridViewLogs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.dataGridViewLogs.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+			this.dataGridViewLogs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridViewLogs.Location = new System.Drawing.Point(816, 0);
+			this.dataGridViewLogs.Name = "dataGridViewLogs";
+			this.dataGridViewLogs.RowHeadersWidth = 51;
+			this.dataGridViewLogs.RowTemplate.Height = 24;
+			this.dataGridViewLogs.Size = new System.Drawing.Size(301, 564);
+			this.dataGridViewLogs.TabIndex = 10;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(782, 565);
+			this.ClientSize = new System.Drawing.Size(1124, 565);
+			this.Controls.Add(this.dataGridViewLogs);
 			this.Controls.Add(this.doorRight_1);
 			this.Controls.Add(this.doorLeft_1);
 			this.Controls.Add(this.doorRight_G);
@@ -179,12 +196,14 @@
 			this.Controls.Add(this.mainElevator);
 			this.Name = "Form1";
 			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.doorRight_G)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorLeft_G)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.liftPanel)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.mainElevator)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorRight_1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.doorLeft_1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogs)).EndInit();
 			this.ResumeLayout(false);
 
 		}
@@ -203,6 +222,7 @@
 		private System.Windows.Forms.PictureBox doorRight_1;
 		private System.Windows.Forms.PictureBox doorLeft_1;
 		private System.Windows.Forms.Timer doorTimer;
+		private System.Windows.Forms.DataGridView dataGridViewLogs;
 	}
 }
 
